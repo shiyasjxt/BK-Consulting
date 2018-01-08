@@ -1,0 +1,122 @@
+/* paste styles for Facebook app here */
+
+/*
+#333333;/* generic text colour */
+
+/*
+#0109ff;/* navigation background colour */
+
+/*
+#ffff00;/* navigation text colour */
+
+/*
+#f9f9f9;/* navigation background hover colour */
+
+/*
+#000000;/* navigation text hover colour */
+
+
+/*
+#00ff00;/* button background colour */
+
+/*
+#ffff00;/* button text colour */
+
+/*
+#333333;/* button text hover colour */
+
+/*
+#00ff00;/* button background hover colour */
+
+/*
+#ffff00;/* general link colour */
+
+/*
+#00ffff;/* general link hover colour */
+
+/* 
+8px;/* border radius */
+
+/*
+8px 10px;/* padding for navigation links and buttons */
+
+
+/* 
+	Note: Paste styles from job results job title text to .rssEntry .title a
+	Note: Paste generic styles from body into #wrapper, p, .boxy-inner
+*/
+
+#wrapper, p, .boxy-inner
+{
+	/* paste body here */
+}
+
+#wrapper, label, .boxy-inner
+{
+	color: #333333;/* generic text colour */
+}
+a, .tweet a
+{
+	color: #ffff00;/* general link colour */
+	text-decoration: none;
+	font-weight: normal;
+}
+a:hover 
+{
+	color: #00ffff;/* general link hover colour */
+}
+.rssEntry .title a
+{
+	/* Paste styles here */
+}
+
+.ss_box{border:none;} 
+.ss_box_header h3{display:none;} 
+.ss_box{margin:0;}
+
+#links 
+{
+	border-radius: 8px;/* border radius */
+	background: #0109ff;/* navigation background colour */
+	overflow: hidden;
+}
+.ss_box .ss_btn, .ss_box .comment_link, .ss_box .share_link, .ss_box .form_submit
+{
+	padding: 8px 10px;/* padding for navigation links and buttons */
+	border: 0;
+	
+	border-radius: 8px;/* border radius */
+	color: #ffff00;/* button text colour */
+	background: #00ff00;/* button background colour */
+}
+.ss_box .ss_btn:hover, .ss_box .comment_link:hover, .ss_box .share_link:hover, .ss_box .form_submit:hover
+{
+	color: #333333;/* button text hover colour */
+	background-color: #00ff00;/* button background hover colour */
+}
+.ss_links a
+{
+	color: #ffff00;/* navigation text colour */
+	padding: 8px 10px;/* padding for navigation links and buttons */
+}
+.ss_links a:hover
+{
+	color: #000000;/* navigation text hover colour */
+	background: #f9f9f9;/* navigation background hover colour */
+	border-color: transparent;
+}
+.rssEntry .ss_rss_from
+{
+	display: none;
+}
+.rssEntry .ss_rss_on
+{
+	float: right;
+	width: 150px;
+	
+	text-align: right;
+}
+.rssEntry .body
+{
+	padding: 0 150px;
+}

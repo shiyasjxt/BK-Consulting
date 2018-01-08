@@ -1,0 +1,324 @@
+
+
+h1, h2, h3, h4, h5, h6{ color:#000000;}
+
+*{ appearance:none; -moz-appearance:none;-webkit-appearance:none;}
+input::-moz-focus-inner { 
+  border: 0; 
+}
+a{ color:#b5121b;}
+
+.links-2 > ul, #side-drop-menu, .search-query{ background:#b5121b;}
+#side-drop-menu li.active{ color:#FFF; opacity:1;}
+.links-2 > ul > li > ul > li > a, #side-drop-menu > li > ul > li > a, #side-drop-menu .salaryfiltercontainer, .login-status{}
+#r24_left-navigation ul > li > a{ color:#fff ;}
+#r24_left-navigation ul > li > ul > li > a{ color:#FFF ;}
+#r24_left-navigation ul > li > ul > li.active > a, #r24_left-navigation ul > li > ul > li > a:hover{ color:#333 !important;}
+
+
+.r24_team-member a:hover:after, .r24_team-member a:focus:after, .r24_team-member a:active:after{ background:rgba(234, 27, 36, 0.7);}
+
+.button:hover a, .button:active a, .button:focus a, .back-to-news-index:hover a, .back-to-news-index:active a, .back-to-news-index:focus a{ background:#b5121b;}
+.contact-page .mini-new-buttons{ padding:5px 20px; }
+
+
+/* Header */
+#r24_top-bar-container{ background:#333;} 
+.r24_phone, .r24_phone a{ color:#FFF;}
+.r24_phone a:hover{ color:#b5121b;}
+.r24_social-media a{ color:#FFF;}
+.r24_social-media a:last-child{ padding-right:0;}
+.r24_social-media a:hover{ color:#b5121b;}
+#r24_login-register .user-register, #r24_login-register .r24_site-search-button{ border-left:solid 1px #fff;}
+#r24_login-register i{ margin-top:-2px; color: #fff !important;}
+#r24_login-register a{color: #fff;}
+
+
+#r24_header-container{ background:#fff; padding:0;}
+#r24_logo{ width:220px; height:100px; display:block; background:url("../images/newlogo.png") no-repeat 0 0; background-size:cover;}
+
+.testimonial-block{ padding:20px; background:#f2f2f2; margin-bottom:20px;}
+.testimonial-block p{ color:#000; font-style:italic; margin:0 0 20px 0; padding:0;}
+.testimonial-block h3{ font-size:16px; margin:0;}
+
+/* Navigation */
+#r24_navigation{ float:right; padding:37px 0 0 0;}
+#r24_login-register{ float:right; padding:10px 0 0 0;}
+#r24_login-register a{ color:#fff; padding:0; line-height:14px;}
+#r24_login-register a:hover{ color:#FFF;}
+#r24_login-register a:hover i{ color:#FFF;}
+#r24_navigation > ul > li > a{ color:#333333;}
+#r24_navigation > ul > li > a:hover, #r24_navigation > ul > li > a:focus, #r24_navigation > ul > li > a:active, #r24_navigation > ul > li.active > a, #r24_navigation > ul > li a.topnav-active{ color:#b5121b;}
+#r24_navigation li li.active a{ background:#b5121b;}
+
+#r24_navigation li li a:hover, #r24_navigation li li a:focus, #r24_navigation li li a:active{ background:#b5121b;}
+
+/* Banner */
+.cycle-prev:hover, .cycle-prev:focus, .cycle-prev:active, .cycle-next:hover, .cycle-next:focus, .cycle-next:active{ background:rgba(234, 27, 36, 0.8);}
+.mini-new-buttons, .jobdetail-top .backtoresults a{ background:#b5121b; padding:5px 40px;}
+.jobdetail-top .backtoresults a:hover{ background:#333;}
+
+.r24_home-banner-caption-container{ top:40%;}
+.r24_home-banner-caption h2{ color:#FFF; text-transform:none; text-shadow: rgb(3, 3, 3) 1px 1px 6px; margin-bottom:47px; line-height:62px;}
+#r24_slide-0{ background-image:url("../images/banner-image-1.jpg");}
+#r24_slide-1{ background-image:url("../images/banner-image-2.jpg");}
+#r24_slide-2{ background-image:url("../images/banner-image-3.jpg");}
+#r24_slide-3{ background-image:url("../images/banner-image-4.jpg");}
+
+/* Home widget */
+#r24_home-banner-search-content{ position:relative;}
+#r24_home-banner-search-content .custom-select{ position:relative;}
+#r24_home-banner-search-content .custom-select select{ background:#FFF url("../images/arrow.svg") no-repeat 95% 20px; }
+#r24_home-banner-search-content .mini-new-buttons{ line-height:2.2;}
+
+.r24_section{ padding:113px 0 60px 0;}
+.r24_section h1 strong::after, .r24_section h2 strong::after{ border-bottom:solid 2px #b5121b;}
+.r24_section h2, .r24_section h1{ color:#b5121b;}
+.r24_section.alt-1 h2{ color:#b5121b;}
+.r24_section h1 small{ letter-spacing:3px;}
+#r24_section-home-about-us h3{ font-family:"Open Sans", Arial, Helvetica, sans-serif;}
+#r24_section-home-about-us h3:after{ border-bottom:solid 2px #b5121b;}
+#r24_section-home-about-us .col-md-4 p{text-align:justify;}
+#r24_section-home-about-us a{ font-size:16px; color:#b5121b; font-weight:900; font-family:"Raleway", sans-serif;}
+#r24_section-home-about-us a:hover{ color:#333; }
+
+#r24_section-home-call-to-action{ padding:145px 0 186px 0;}
+.r24_call-to-action-button span{ border:solid 1px #b5121b;}
+.r24_section.alt-1 h2 strong{ padding-bottom:22px;}
+.r24_section.alt-1 h2 strong::after{ border-bottom:2px solid rgba(234, 27, 36, 0.8);}
+#r24_section-home-call-to-action h2{ margin-bottom:53px;}
+.r24_call-to-action-button{ padding:56px 15px 89px;}
+.r24_call-to-action-button span{ bottom:72px;}
+#r24_submit-resume-button:before{ background:url("../images/submit-resume.svg");}
+#r24_submit-vacancy-button:before{ background:url("../images/submit-vacancy.svg");}
+#r24_job-alerts-button:before{ background:url("../images/job-alerts.svg");}
+#r24_register-button:before{ background:url("../images/register.svg");}
+.r24_call-to-action-button:hover:before, .r24_call-to-action-button:focus:before, .r24_call-to-action-button:active:before{ background-position:50% -55px !important;}
+.r24_call-to-action-button:hover, .r24_call-to-action-button:focus, .r24_call-to-action-button:active{ background:#b5121b;}
+
+
+#r24_section-home-tabbed-info{ /*padding:125px 0 129px 0;*/ padding:230px 0 129px 0;}
+#r24_home-tabbed-info-menu{ margin:-195px 0 80px;}
+.r24_home-tab-item a:hover .r24_home-tab-item-photo:after, .r24_home-tab-item a:focus .r24_home-tab-item-photo:after, .r24_home-tab-item a:active .r24_home-tab-item-photo:after{ background:rgba(234, 27, 36, 0.8);}
+.r24_home-tab-item:hover a::after, .r24_home-tab-item:focus a::after, .r24_home-tab-item:active a::after{ background:rgba(234, 27, 36, 0.8);}
+#r24_home-tabbed-info-menu a:hover, #r24_home-tabbed-info-menu a:focus, #r24_home-tabbed-info-menu a:active{color:#b5121b;}
+.r24_home-tab-item-name{ font-family:"Open Sans", Arial, Helvetica, sans-serif; padding:39px 0 0px; line-height:22px; text-transform:none;}
+.r24_home-tab-item-description{ font-family:"Open Sans", Arial, Helvetica, sans-serif;  }
+.r24_home-tab-item-position{ font-family:"Open Sans", Arial, Helvetica, sans-serif;}
+#r24_home-tabbed-info-menu .active a{ color:#b5121b;}
+.r24_home-tab-container .team-list{ float:left; display:block; width:262px; margin:0;}
+.r24_home-tab-container .team-list:nth-child(2n+2){ margin:0 204px;}
+
+.r24_section.alt-3{ background:#65121b; padding:50px 0 13px 0;}
+.r24_section.alt-3 h2{ margin:86px 0px 16px 32px; font-size:44px;}
+.r24_section.alt-3 .button{ margin-left:32px;}
+#r24_home-latest-jobs li{ width:275px;}
+#r24_home-latest-jobs .rss-item-title{ font-size:15px; font-weight:900; font-family:"Raleway", sans-serif; color:#333333;}
+#r24_home-latest-jobs .xmlProfession{ margin-bottom:32px;}
+#r24_home-latest-jobs .rss-item-link a{ font-size:14px; font-weight:900; font-family:"Raleway", sans-serif; background:#b5121b;}
+#r24_home-latest-jobs-holder{ z-index:99;}
+.jobs-holder{ position:relative;}
+.jobs-holder .shadow{ position:absolute; left:-100px; bottom:0; width:953px; height:52px; background:url("../images/shadow.png") no-repeat 0 0;}
+
+#r24_home-latest-jobs .jcarousel-prev:hover, #r24_home-latest-jobs .jcarousel-prev:focus, #r24_home-latest-jobs .jcarousel-prev:active, #r24_home-latest-jobs .jcarousel-next:hover, #r24_home-latest-jobs .jcarousel-next:focus, #r24_home-latest-jobs .jcarousel-next:active{ color:#b5121b}
+#r24_site-search #r24_close-site-search:hover, #r24_site-search #r24_close-site-search:focus, #r24_site-search #r24_close-site-search:active{ color:#b5121b}
+
+
+/* Footer */
+#r24-bottom-bar-container{ position:relative;}
+#r24-bottom-bar-container a:nth-child(1)::before {
+    display: none;
+}
+#r24-bottom-bar-container a .to-top {
+    position: absolute;
+    left: 50%;
+    margin-left: -22px;
+    top: -50px;
+    padding-top: 72px;
+    font-size: 11px;
+    color: #FFF;
+
+}
+#r24-bottom-bar-container a .to-top::before {
+    background: url("../images/to-top-icon.png") no-repeat scroll 0 0;
+    content: "";
+    height: 70px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 70px;
+}
+#r24-bottom-bar-container a .to-top:hover:before {
+    background-position: 0 -76px;
+}
+
+#r24_footer-logo{width:220px; height:100px; display:block; background:url("../images/newlogo.png") no-repeat 0 0; background-size:cover;}
+#r24_footer-container h2{ font-weight:900;}
+#r24_footer-social-media a{ background:#65121b;}
+#r24_footer-container a:hover, #r24_footer-container a:focus, #r24_footer-container a:active{ color:#b5121b;}
+#r24_footer-container li a{ text-transform:uppercase; line-height:23px;}
+#r24_footer-container li.active a{ color:#b5121b;}
+#r24_footer-container .number{ display:inline-block; margin:5px 0 10px;}
+
+#r24-bottom-bar-container{ border:none; background:#3A3A3A;}
+#r24-bottom-bar-container a:hover, #r24-bottom-bar-container a:focus, #r24-bottom-bar-container a:active{ color:#b5121b;}
+
+
+
+/*--------------media query css------------------*/	
+@media (max-width:1350px) {
+.r24_home-banner-caption h2{ font-size:60px;}
+#r24_section-home-about-us h3{ font-size:16px;}
+.r24_home-tab-container .team-list:nth-child(2n+2){ margin:0 190px;}
+.jobs-holder .shadow{ left:-170px;}
+
+}
+
+@media (max-width:1199px) {
+
+.r24_home-banner-caption h2{ font-size:52px; line-height:52px;}
+
+.r24_section{ padding:50px 0;}
+.r24_section h1{ font-size:40px;}
+#r24_section-home-about-us h3{ font-size:14px;}
+
+#r24_section-home-call-to-action{ padding:50px 0 120px 0 !important;}
+.r24_section h2{ font-size:30px;}
+
+#r24_section-home-tabbed-info{ padding:170px 0 30px 0; /*padding:50px 0 30px 0;*/}
+#r24_home-tabbed-info-menu{ margin:-123px 0 0px;}
+#r24_home-tabbed-info-menu a{ font-size:20px; display:block;}
+.r24_home-tab-container .team-list:nth-child(2n+2){ margin:0 103px;}
+
+.r24_section.alt-3{ padding:50px 0;}
+.r24_section.alt-3 h2{ margin:30px 0px 16px 0px;}
+.r24_section.alt-3 .button{ margin-left:0;}
+#r24_home-latest-jobs .jcarousel-clip{ width:540px;}
+
+.jobs-holder .shadow{ display:none;}
+#r24_home-latest-jobs .jcarousel-prev:hover, #r24_home-latest-jobs .jcarousel-prev:focus, #r24_home-latest-jobs .jcarousel-prev:active, #r24_home-latest-jobs .jcarousel-next:hover, #r24_home-latest-jobs .jcarousel-next:focus, #r24_home-latest-jobs .jcarousel-next:active{ color:#333;}
+}
+
+@media (max-width:1023px) {
+body{ padding-top:134px !important;}
+.r24_section h1{ font-size:37px;}
+.r24_section h2{ font-size:27px;}
+.r24_section.alt-3 h2{ font-size:32px;}
+#r24_section-home-call-to-action h2{ margin-bottom:40px;}
+
+.r24_slider{ height:410px;}
+.r24_home-banner-caption-container{ top:25%;}
+
+#r24_navigation{ padding:45px 0 0 0;}
+#r24_navigation > ul > li > a{ color:#FFF;}
+#r24_navigation > ul > li.active > a{ background:#b5121b;}
+#r24_navigation li li a{ font-size:16px; line-height:27px;}
+#r24_mobile-navigation{ position:absolute; top:42px; right:40px; margin:0;}
+#r24_header-content #r24_close-mobile-navigation:hover, #r24_header-content #r24_close-mobile-navigation:focus, #r24_header-content #r24_close-mobile-navigation:active{ color:#b5121b;}
+#r24_navigation > ul > li > a:hover, #r24_navigation > ul > li > a:focus, #r24_navigation > ul > li > a:active, #r24_navigation li li a:hover, #r24_navigation li li a:focus, #r24_navigation li li a:active{ background:#b5121b;}
+#r24_mobile-navigation:hover, #r24_mobile-navigation:focus, #r24_mobile-navigation:active{ color:#FFF;}
+
+#r24_section-home-about-us h3{ font-size:20px;}
+#r24_section-home-about-us a{ font-size:14px;}
+.r24_call-to-action-button{ font-size:16px;}
+
+#r24_home-tabbed-info-menu{ margin:-120px 0 0;}
+#r24_home-tabbed-info-menu a{ font-size:18px; padding:20px 30px;}
+.r24_home-tab-container .team-list{ width:30%;}
+.r24_home-tab-container .team-list:nth-child(2n+2){ margin:0 5%;}
+.r24_home-tab-item-name{ font-size:16px;}
+.r24_home-tab-item-position{ font-size:15px;}
+
+#r24-bottom-bar-container a .to-top {
+    top: -70px;
+}
+}
+@media (max-width:880px) {
+#r24_home-latest-jobs .jcarousel-clip{ width:480px;}
+}
+@media (max-width:767px) {
+
+body{ padding-top:0px !important;}
+.r24_section h1{ font-size:32px;}
+.r24_section h2{ font-size:25px;}
+.r24_section.alt-3 h2{ font-size:28px; text-align:center;}
+.r24_section.alt-3 p{ text-align:center}
+.r24_section h2 small{ text-align:center;}
+#r24_section-home-call-to-action h2{ margin-bottom:30px;}
+.r24_section h2 strong::after{ left:50%; margin-left:-35px;}
+
+#r24_login-register{ padding: 0; position: absolute; right: 20px; top: 45px;}
+#r24_mobile-navigation{ right:230px;}
+#r24_login-register li{ margin-left:15px}
+#r24_login-register .user-register, #r24_login-register .r24_site-search-button{ padding-left:15px;}
+
+#r24_section-home-call-to-action h2{ text-align:center;}
+
+.r24_home-tab-container .team-list{ width:31%;}
+.r24_home-tab-container .team-list:nth-child(2n+2){ margin:0 2%;}
+
+#r24_home-tabbed-info-menu{ margin:-87px 0 0 ;}
+#r24_home-tabbed-info-menu a{ padding:5px; font-size:16px;}
+
+.r24_section.alt-3{ padding:20px 0 30px; text-align:center;}
+
+#r24_footer-logo{ margin:0 auto;}
+#r24_footer-container p{ text-align:center;}
+#r24_footer-social-media .r24_social-media{ text-align:center;}
+#r24_footer-container h2{ text-align:center;}
+#r24-bottom-bar-container{ text-align:center; padding:10px 0;}
+#r24-bottom-bar-container .container-fluid{ text-align:center;}
+#r24-bottom-bar-container a:before{ display:inline-block; }
+#r24-bottom-bar-container a{ display:inline-block; }
+
+#r24-bottom-bar-container a .to-top {
+    margin-left: -20px;
+    padding-top: 40px;
+    top: -40px;
+}
+#r24-bottom-bar-container a .to-top:before {
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    left: 15px;
+}
+#r24-bottom-bar-container a .to-top:hover:before {
+    background-position: 0 -43px;
+}
+#r24_home-latest-jobs .jcarousel-clip{ width:100%;}
+}
+
+@media (max-width:599px) {
+
+.r24_home-tab .row{ text-align:center;}
+.r24_home-tab-container .team-list{ width:47%; float:none; display:inline-block; }
+}
+
+@media (max-width:479px) {
+.r24_home-tab-container .team-list{ width:100%; float:none; display:inline-block; }
+#r24_home-tabbed-info-menu{ margin:-80px 0 0 ;}
+#r24_home-tabbed-info-menu a{ font-size:12px;}
+}
+
+
+@media (max-width:499px) {
+#r24_mobile-navigation{ right:20px;}
+#r24_login-register{ position:static; padding:20px 0; display:block; float:none;}
+#r24_login-register ul{ text-align:center;}
+#r24_login-register li{ display:inline-block; float:none;}
+#r24_login-register {display: none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

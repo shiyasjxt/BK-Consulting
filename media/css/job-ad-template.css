@@ -1,0 +1,233 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,900,900italic' rel='stylesheet");
+
+/* Adjust:
+	border colour, 
+	horizontal padding (#job-ad-header, #job-ad-content, #job-ad-footer), 
+	vertical margin (.job-ad-part), 
+	header and footer background images, 
+	copy styling for header and anchor tags, generic fonts and line heights.
+*/
+
+#job-ad-template *
+{
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+	
+	font: inherit;
+	text-align: left;
+	outline: 0;
+}
+#job-ad-template
+{
+	overflow: hidden;
+	float: left;
+	width: 458px;
+	border: solid 1px #ed1b24; /* border colour here */
+	
+	border-radius: 0;
+	/* generic font styling here */
+	font-size: 15px;
+	line-height: 1.5;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	color: #333;
+}
+#job-ad-template.job-ad-mickey
+{
+	width: 536px;
+}
+#job-ad-template a
+{
+	text-decoration: none;
+	color: #EE450A;
+}
+#job-ad-template a:hover, 
+#job-ad-template a:focus, 
+#job-ad-template a:active
+{
+	text-decoration: none;
+	color: #ee450a;
+}
+#job-ad-template p
+{
+	margin: 0 0 1.5em 0;
+}
+#job-ad-template ul
+{
+	padding: 0 0 0 18px;
+	margin: 0 0 1.5em 0;
+
+	list-style: disc;
+}
+#job-ad-template ol
+{
+	padding: 0 0 0 22px;
+	margin: 0 0 1.5em 0;
+}
+#job-ad-template ol li
+{
+	padding: 0;
+	margin: 0;
+}
+#job-ad-template ul li
+{
+	display: list-item;
+	padding: 0;
+	margin: 0;
+	
+	list-style: disc;
+}
+#job-ad-template li:before
+{
+	display: none;
+}
+#job-ad-template #job-ad-content
+{
+	padding: 1em 1.5em; /* horizontal padding  here*/
+	    background: #bababa;
+}
+#job-ad-template .job-ad-part
+{
+	margin: 1.5em 0; /* vertical margin here */
+}
+#job-ad-template #job-ad-header
+{
+	overflow: hidden;
+
+
+
+}
+#job-ad-template #job-ad-header h2
+{
+	    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("http://bkcon.com.au/media/BK-Consulting/bkheader.jpg") no-repeat left 50%;
+    height: 248px;
+    background-size: cover;
+}
+#job-ad-template.has-logo-0 #job-ad-header h2
+{
+	width: 100%;
+}
+#job-ad-template #job-ad-header h2 a
+{
+	display: block;
+	height: 100%;
+	
+	text-indent: -5000px;
+}
+#job-ad-template #job-advertiser-logo
+{
+	float: right;
+	width: 50%;
+	height: 55px;
+	background-repeat: no-repeat;
+	background-position: right 50%;
+	background-size: auto 100%;
+}
+#job-ad-template.has-logo-0 #job-advertiser-logo
+{
+	display: none;
+}
+#job-ad-template #job-ad-title h1
+{
+	padding: 0;
+	border: 0;
+	margin: 0 0 30px;
+	
+	/* copy and paste styles from h2 here */
+	font-size: 45px;
+	line-height: 1.2;
+	font-weight: 900;
+	color: #ea1b24;
+}
+#job-ad-template .job-ad-option
+{
+	display: table-row;
+}
+#job-ad-template .job-ad-optional-heading, 
+#job-ad-template .job-ad-optional-text
+{
+	display: table-cell;
+	vertical-align: top;
+}
+#job-ad-template .job-ad-optional-heading
+{
+	padding: 0 1em 0 0;
+	font-weight: 700;
+}
+#job-ad-template .job-ad-optional-text div
+{
+	display: inline-block;
+}
+#job-ad-template #job-ad-footer a
+{
+	display: block;
+    padding: 4.5em 0;
+    background: url("http://bkcon.com.au/media/BK-Consulting/bkfooter.jpg") no-repeat left 50% !important;
+    text-align: center;
+    background: #ed1b24;
+    color: #fff;
+    background-size: cover;
+    width: 100%;
+}
+}
+#job-ad-template #job-ad-footer a:hover, 
+#job-ad-template #job-ad-footer a:focus, 
+#job-ad-template #job-ad-footer a:active
+{
+	background: #EE450A;
+	color: #fff;
+}
+@media screen and (max-width: 767px){
+
+	#job-ad-template #job-ad-footer a {
+    background: none !important;
+    color: #ed1b24 !important;
+    padding: 5px !important;
+	}
+	#job-ad-template #job-ad-header h2{
+		height: 265px;
+		margin-bottom: 0 !important;
+	}
+}
+@media screen and (max-width: 599px) {
+	#job-ad-template #job-ad-title h1{
+		font-size: 30px;
+	}
+	#job-ad-template .job-ad-option
+	{
+		margin: 0.5em 0;
+	}
+	#job-ad-template .job-ad-option, 
+	#job-ad-template .job-ad-optional-heading, 
+	#job-ad-template .job-ad-optional-text, 
+	#job-ad-template .job-ad-optional-text div
+	{
+		display: block;
+	}
+
+}
+@media screen and (max-width: 479px) {
+
+	#job-ad-template #job-ad-header h2
+	{
+		margin-bottom: 0.5em;	
+	}
+	#job-ad-template #job-ad-header h2, 
+	#job-ad-template #job-advertiser-logo 
+	{
+		float: none;
+		width: auto;
+	}
+
+}
+@media screen and (max-width: 414px) {
+	#job-ad-template #job-ad-header h2{
+		height: 145px;
+		margin-bottom: 0 !important;
+	}
+}
+
